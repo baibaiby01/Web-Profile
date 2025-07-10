@@ -18,7 +18,7 @@ const App: React.FC = () => {
       <div className="box2">
         <div className="d-inline-flex gap-2">
            <Stack direction="row" spacing={2}>
-          <Link to="/app" className="link-button"></Link>
+          {/* <Link to="/app" className="link-button"></Link> */}
           <Link to="/home" className="link-button">Home</Link>
           <Link to="/about" className="link-button">About</Link>
           <Link to="/portfolio" className="link-button">Portfolio</Link>
