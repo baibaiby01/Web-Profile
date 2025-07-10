@@ -19,10 +19,13 @@
     "@popperjs/core": "^2.11.8",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.7",
+    "framer-motion": "^12.23.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3",
-    "styled-components": "^6.1.19"
+    "react-tsparticles": "^2.12.2",
+    "styled-components": "^6.1.19",
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

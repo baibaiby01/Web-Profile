@@ -5,23 +5,24 @@ import Stack from '@mui/material/Stack';
 const Home: React.FC = () => {
 
   return (
-    <>
-       <div className="app-container">
-      {/* <div className="box">Box ด้านบน</div> */}
+    <div className="wrapper">
+          <div className="card">
+         <div className="app-container">
+          {/* <div className="box">Box ด้านบน</div> */}
 
-      <div className="box2">
-        <div className="d-inline-flex gap-2">
-           <Stack direction="row" spacing={2}>
-          <Link to="/home" className="link-button">Home</Link>
-          <Link to="/about" className="link-button">About</Link>
-          <Link to="/portfolio" className="link-button">Portfolio</Link>
-          <Link to="/contact" className="link-button">Contact</Link>
-          </Stack>
+          <div className="box2">
+            <div className="d-inline-flex gap-2">
+              <Stack direction="row" spacing={2}>
+              <Link to="/home" className="button ">Home</Link>
+              <Link to="/about" className="button">About</Link>
+              <Link to="/portfolio" className="button">Portfolio</Link>
+              <Link to="/contact" className="button">Contact</Link>
+              </Stack>
+            </div>
+          </div>
+
+          {/* <div className="box3">Box ด้านล่าง</div> */}
         </div>
-      </div>
-
-      {/* <div className="box3">Box ด้านล่าง</div> */}
-    </div>
 
       <div style={{ padding: '40px', textAlign: 'center' }}>
         <h1 className="text-lg text-gray-500 mt-2">About Me</h1>
@@ -37,7 +38,8 @@ const Home: React.FC = () => {
 </section>
 
       </div>
-    </>
+      </div>
+    </div>
   );
 };
 
