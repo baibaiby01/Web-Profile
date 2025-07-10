@@ -4,10 +4,7 @@ import Stack from '@mui/material/Stack';
 import Resume from './Resume.pdf';
 
 const Home: React.FC = () => {
-  const handleNavClick = (section: string) => {
-    console.log(`กำลังไปยัง: ${section}`);
-    // คุณสามารถใส่ scroll หรือเปลี่ยน state ได้ที่นี่
-  };
+
 
   return (
     <>

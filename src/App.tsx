@@ -9,10 +9,7 @@ import { Link } from 'react-router-dom';
 //   AOS.init({ duration: 1000, once: true });
 // }, []);
 const App: React.FC = () => {
-  const handleNavClick = (section: string) => {
-    console.log(`กำลังไปยัง: ${section}`);
-    // คุณสามารถใส่ scroll หรือเปลี่ยน state ได้ที่นี่
-  };
+
 
   return (
     <div className="app-container">

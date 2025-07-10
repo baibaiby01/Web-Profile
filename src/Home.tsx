@@ -5,10 +5,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 const Home: React.FC = () => {
-  const handleNavClick = (section: string) => {
-    console.log(`กำลังไปยัง: ${section}`);
-    // คุณสามารถใส่ scroll หรือเปลี่ยน state ได้ที่นี่
-  };
+  
 
   return (
     <>

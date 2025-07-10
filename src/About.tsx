@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
 
 const Home: React.FC = () => {
-  const handleNavClick = (section: string) => {
-    console.log(`กำลังไปยัง: ${section}`);
-    // คุณสามารถใส่ scroll หรือเปลี่ยน state ได้ที่นี่
-  };
 
   return (
     <>
