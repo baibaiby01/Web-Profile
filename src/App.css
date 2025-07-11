@@ -54,10 +54,8 @@ body {
   flex: 1 1 100%;
   padding: 10px;
   display: flex;
-  flex-direction: column;
   gap: 1.5rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -115,4 +113,27 @@ body {
   border-radius: 12px;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  gap: 2em;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }

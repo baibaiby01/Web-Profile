@@ -23,6 +23,7 @@ const App: React.FC = () => {
           <Link to="/about" className="link-button">About</Link>
           <Link to="/portfolio" className="link-button">Portfolio</Link>
           <Link to="/contact" className="link-button">Contact</Link>
+        
           </Stack>
         </div>
       </div>
