@@ -1,5 +1,10 @@
-* {
-  box-sizing: border-box;
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 16px;
+  background-color: #FFF2EB;
 }
 
 body {
@@ -11,17 +16,7 @@ body {
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .card {
-    padding: 20px;
-  }
-  .button {
-    padding: 8px 16px;
-    font-size: 1rem;
-  }
-  .text-lg {
-    font-size: 1rem;
-  }
+@media (max-width: 768px) {
   body {
     font-size: 18px;
   }
@@ -32,58 +27,40 @@ body {
     font-size: 20px;
   }
 }
+@media (min-width: 768px) {
+  .hero-section {
+    flex-direction: row;
+    text-align: left;
+  }
+  .hero-right img {
+    max-width: 60%;
+  }
+}
 
-#root {
-  max-width: 100%;
-  min-height: 100vh;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0 16px;
-  background-color: #FFF2EB;
+h1, h2, h3, p {
+  margin: 0.5em 0;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
 }
 
 .app-container {
   display: flex;
-  justify-content: center;  /* จัดตรงกลางแนวนอน */
-  align-items: center;      /* จัดตรงกลางแนวตั้ง */
-  flex-wrap: wrap;
-  padding-top: 80px;
-}
-
-
-/* Responsive box layout */
-.box, .box2, .box3 {
-  flex: 1 1 100%;
-  padding: 10px;
-  display: flex;
-  gap: 1.5rem;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  border-radius: 8px;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white; /* หรือสีใดก็ได้ */
-  z-index: 999;
-  padding: 12px 24px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #FFE8CD;
+  flex-wrap: wrap;
+  padding-top: 100px; /* พอดีกับ .box2 ที่ fixed ด้านบน */
 }
-
-@media (min-width: 768px) {
-  .box, .box2, .box3 {
-    flex: 1;
-  }
-
-  .app-container {
-    flex-direction: row;
-  }
-}
-
 /* Link styling */
 .link-button {
   text-decoration: none;
@@ -126,11 +103,8 @@ body {
   transition: all 0.2s ease-in-out;
 }
 .hero-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2em;
-  gap: 2em;
+  flex-direction: column;
+  text-align: center;
 }
 
 .hero-left {
@@ -144,19 +118,37 @@ body {
 }
 
 .hero-right img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   border-radius: 10px;
 }
 .photo {
   flex: 1 1 100%;
-  padding: 10px;
-  display: flex;
-  gap: 1.5rem;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   border-radius: 8px;
   height: auto;
+}
+
+
+.box, .box3 {
+  position: static;
+  background-color: transparent;
+  box-shadow: none;
+  padding: 20px;
+}
+.box2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #FFE8CD;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

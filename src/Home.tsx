@@ -92,72 +92,63 @@ const Home: React.FC = () => {
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="100" />
                           </div>
                       </div>
                     </div>
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="100" />
                           </div>
                       </div>
                     </div>
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="100" />
                           </div>
                       </div>
                     </div>
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="100" />
                           </div>
                       </div>
                     </div>
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="100" />
                           </div>
                       </div>
                     </div>
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="100" />
                           </div>
                       </div>
                     </div>
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="100" />
                           </div>
                       </div>
                     </div>
                     <div className="photo">
                       <div className="d-inline-flex gap-2">
                           <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
-                          </div>
-                      </div>
-                    </div>
-                    <div className="photo">
-                      <div className="d-inline-flex gap-2">
-                          <div className="hero-right">
-                            <img src={smaile} alt="Pitchayaporn Wo" />
+                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="100" />
                           </div>
                       </div>
                     </div>
                   </div>
-
               </div>
-              
-
             </div>
+            <br />
           </motion.div>
        </div>
          
