@@ -14,10 +14,10 @@ const Home: React.FC = () => {
           <div className="box2">
             <div className="d-inline-flex gap-2">
               <Stack direction="row" spacing={2}>
-              <Link to="/home" className="button ">Home</Link>
-              <Link to="/about" className="button">About</Link>
-              <Link to="/portfolio" className="button">Portfolio</Link>
-              <Link to="/contact" className="button">Contact</Link>
+              <Link to="/home" className="link-button ">Home</Link>
+              <Link to="/about" className="link-button">About</Link>
+              <Link to="/portfolio" className="link-button">Portfolio</Link>
+              <Link to="/contact" className="link-button">Contact</Link>
               </Stack>
             </div>
           </div>
