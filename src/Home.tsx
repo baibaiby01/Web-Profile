@@ -15,7 +15,7 @@ const Home: React.FC = () => {
 
           <div className="box2">
             <div className="d-inline-flex gap-2">
-              <Stack direction="row" spacing={2}>
+              <Stack direction="row" spacing={2} justifyContent="center">
               <Link to="/home" className="link-button  ">Home</Link>
               <Link to="/about" className="link-button ">About</Link>
               <Link to="/portfolio" className="link-button ">Portfolio</Link>
@@ -61,7 +61,7 @@ const Home: React.FC = () => {
             transition={{ duration: 1 }}
             style={{ padding: '40px', textAlign: 'center', flex: 1 }}
           >
-                 <div className="box2">
+          <div className="photo">
             <div className="d-inline-flex gap-2">
                 <div className="hero-right">
                   <img src={smaile} alt="Pitchayaporn Wo" />
@@ -70,21 +70,94 @@ const Home: React.FC = () => {
           </div>
           </motion.div>
         </div>
+      <br />
+      <br />
+      <br />
+      <br />
+
        <div>
          <motion.div
             initial={{ x: 300, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: -300, opacity: 0 }}
-            transition={{ duration: 3 }}
-            style={{ padding: '40px', textAlign: 'center', flex: 1 }}
+            transition={{ duration: 2 }}
+            style={{ padding: '40px', textAlign: 'left', flex: 1 }}
           >
-                 <div className="box2">
-            <div className="d-inline-flex gap-2">
-                <div className="hero-right">
-                  <img src={smaile} alt="Pitchayaporn Wo" />
-                </div>
+            <div>
+              <h1>Skill</h1>
+              <br />
+              <div>
+                <h3> Programming Languages</h3>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                    <div className="photo">
+                      <div className="d-inline-flex gap-2">
+                          <div className="hero-right">
+                            <img src={smaile} alt="Pitchayaporn Wo" />
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+              
+
             </div>
-          </div>
           </motion.div>
        </div>
          
